@@ -1,9 +1,16 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 body{
     background-color: aqua;
 }
 
 header {
     background-color: #ddd;
+    top: 0;
+    position: sticky;
 }
 ul {
     list-style-type: none;
