@@ -1,3 +1,25 @@
 body{
     background-color: aqua;
 }
+
+header {
+    background-color: #ddd;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 20px;
+    background-color: yellow;
+    width: 500px;
+    margin: auto;
+    justify-content: center;
+}
+ul li {
+    margin: 0 5px;
+    padding: 5px 7px;
+    border-radius: 20px;
+}
+ul li:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}
