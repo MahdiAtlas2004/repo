@@ -3,9 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
 }
-body{
-    background-color: aqua;
-}
 
 header {
     background-color: #ddd;
@@ -16,7 +13,6 @@ ul {
     list-style-type: none;
     display: flex;
     padding: 20px;
-    background-color: yellow;
     width: 500px;
     margin: auto;
     justify-content: center;
