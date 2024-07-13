@@ -59,3 +59,22 @@ a {
     text-decoration: none;
     color: black;
 }
+
+/* Contact Us */
+form {
+    border: solid 1px black;
+    border-radius: 4px;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    margin-top: 20%;
+    padding: 20px 0;
+}
+form input {
+    width: 80%;
+    margin: 6px;
+    padding: 4px;
+}
+form textarea {
+    width: 80%;
+}
