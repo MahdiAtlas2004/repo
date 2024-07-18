@@ -29,6 +29,11 @@ ul li:hover {
     cursor: pointer;
 }
 
+/* active link */
+.active {
+    text-decoration: underline;
+}
+
 h1 {
     text-align: center;
     margin-top: 20px;
