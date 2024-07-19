@@ -1,94 +1,105 @@
+/* theme */
+:root {
+  --primary: #d3c7bb;
+  --secondary: #2d3847;
+  --ternary: #eeeeea;
+}
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: var(--ternary);
 }
 
 header {
-    background-color: #ddd;
-    top: 0;
-    position: sticky;
-    overflow: hidden;
-    scroll-behavior: auto;
+  background-color: var(--secondary);
+  top: 0;
+  position: sticky;
+  overflow: hidden;
+  scroll-behavior: auto;
 }
 ul {
-    list-style-type: none;
-    display: flex;
-    padding: 20px;
-    width: 500px;
-    margin: auto;
-    justify-content: center;
+  color: white !important;
+  list-style-type: none;
+  display: flex;
+  padding: 20px;
+  width: 500px;
+  margin: auto;
+  justify-content: center;
 }
 ul li {
-    margin: 0 5px;
-    padding: 5px 7px;
-    border-radius: 20px;
+  margin: 0 5px;
+  padding: 5px 7px;
+  border-radius: 20px;
+  color: var(--ternary);
 }
 ul li:hover {
-    background-color: aquamarine;
-    cursor: pointer;
+  cursor: pointer;
+  color: white;
 }
 
 /* active link */
 .active {
-    text-decoration: underline;
+  text-decoration: underline white;
 }
 
 h1 {
-    text-align: center;
-    margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 main {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow: hidden;
 }
 
 main div {
-    margin: 30px 0;
-    background-color: rgba(239, 236, 232, 0.765);
-    width: 280px;
-    height: 350px;
-    text-align: justify;
-    padding: 15px;
-    border-radius: 20px;
+  margin: 30px 0;
+  background-color: var(--primary);
+  width: 280px;
+  height: 350px;
+  text-align: justify;
+  padding: 15px;
+  border-radius: 20px;
 }
 
 main div:hover {
-    cursor: pointer;
-    box-shadow: 1px 2px 3px gainsboro;
+  cursor: pointer;
+  box-shadow: 1px 2px 3px gainsboro;
 }
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 /* Contact Us */
 .contact {
-    background-image: url(../assets/contact.jpg);
+  background-image: url(../assets/contact.jpg);
 }
 form {
-    border: solid 1px black;
-    border-radius: 8px;
-    margin: auto;
-    width: 400px;
-    text-align: center;
-    margin-top: 30vh;
-    padding: 20px 0;
-    backdrop-filter: blur(30px);
-    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
-    border: 2px solid rgba(225, 225, 225, 0.18)
+  border: solid 1px black;
+  border-radius: 8px;
+  margin: auto;
+  width: 400px;
+  text-align: center;
+  margin-top: 30vh;
+  padding: 20px 0;
+  backdrop-filter: blur(30px);
+  box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+  border: 2px solid rgba(225, 225, 225, 0.18);
 }
 form input {
-    width: 80%;
-    margin: 6px;
-    padding: 6px;
+  width: 80%;
+  margin: 6px;
+  padding: 6px;
 }
 form textarea {
-    width: 80%;
+  width: 80%;
 }
 
 /* Products page */
