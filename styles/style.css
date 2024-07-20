@@ -20,6 +20,9 @@ header {
   position: sticky;
   overflow: hidden;
   scroll-behavior: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 ul {
   color: white !important;
@@ -80,14 +83,22 @@ a {
 /* Contact Us */
 .contact {
   background-image: url(../assets/contact.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
 }
 form {
   border: solid 1px black;
   border-radius: 8px;
-  margin: auto;
   width: 400px;
   text-align: center;
-  margin-top: 30vh;
   padding: 20px 0;
   backdrop-filter: blur(30px);
   box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
@@ -97,10 +108,32 @@ form input {
   width: 80%;
   margin: 6px;
   padding: 6px;
+  border-radius: 4px;
+  border: none;
+}
+form input::placeholder {
+  color: var(--secondary);
 }
 form textarea {
   width: 80%;
+  margin: 6px;
+  border-radius: 4px;
+  border: none;
+  height: 4rem;
 }
+form textarea::placeholder {
+  color: var(--secondary);
+  padding: 1.4%;
+}
+form input[type="submit"] {
+  cursor: pointer;
+  background-color: var(--secondary);
+  color: white;
+}
+form input[type="submit"]:hover {
+  background-color: #2d3847d3;
+}
+
 
 /* Footer */
 footer {
