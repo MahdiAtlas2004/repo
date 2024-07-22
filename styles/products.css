@@ -1,0 +1,104 @@
+/* theme */
+:root {
+  --primary: #d3c7bb;
+  --secondary: #2d3847;
+  --ternary: #eeeeea;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: var(--ternary);
+  height: auto;
+}
+.product-container {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.product-page {
+  height: auto;
+}
+
+header {
+  background-color: var(--secondary);
+  top: 0;
+  position: sticky;
+  overflow: hidden;
+  scroll-behavior: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul {
+  color: white !important;
+  list-style-type: none;
+  display: flex;
+  padding: 20px;
+  width: 500px;
+  margin: auto;
+  justify-content: center;
+}
+ul li {
+  margin: 0 5px;
+  padding: 5px 7px;
+  border-radius: 20px;
+  color: var(--ternary);
+}
+ul li:hover {
+  cursor: pointer;
+  color: white;
+}
+
+/* active link */
+.active {
+  text-decoration: underline white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow: hidden;
+  height: auto;
+}
+
+main div {
+  margin: 30px 0;
+  background-color: var(--primary);
+  width: 280px;
+  height: 350px;
+  text-align: justify;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+main div:hover {
+  cursor: pointer;
+  box-shadow: 1px 2px 3px gainsboro;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary);
+  color: var(--ternary);
+  position: absolute;
+}
