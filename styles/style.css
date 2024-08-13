@@ -109,9 +109,8 @@ form input[type="submit"]:hover {
   background-color: #2d3847d3;
 }
 
-
 /* Footer */
- footer {
+footer {
   width: 100%;
   height: 10vh;
   display: flex;
@@ -121,4 +120,4 @@ form input[type="submit"]:hover {
   color: var(--ternary);
   position: absolute;
   bottom: 0;
-} 
+}
