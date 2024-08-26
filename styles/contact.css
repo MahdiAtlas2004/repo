@@ -1,0 +1,13 @@
+input:focus {
+  background-color: black;
+  color: white;
+}
+input:focus::placeholder {
+  color: white;
+}
+textarea:focus {
+  background-color: black;
+}
+textarea:focus::placeholder {
+  color: white;
+}
