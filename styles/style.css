@@ -42,15 +42,21 @@ ul li {
 }
 ul a{
   text-decoration: none;
+  color: black;
 }
 ul li:hover {
   cursor: pointer;
-  color: white;
+  /* color: white; */
 }
 
 /* active link */
 .active {
-  text-decoration: underline white;
+  background-color: var(--primary);
+  border-radius: 20px;
+}
+
+.active li {
+  color: var(--secondary);
 }
 
 h1 {
